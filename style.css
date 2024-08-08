@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #74644b;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+.grid-item {
+  background-color: #e0e0e0;
+  border: solid 1px gray;
+  /* border-right: ; */
+  padding: 10px;
+  text-align: center;
+}
