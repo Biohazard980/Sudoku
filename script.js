@@ -30,12 +30,3 @@ for (let i = 0; i < rows; i++) {
   }
   rowNumTracker++;
 }
-
-
-for (i = 1; i <= 81; i++) {
-  if (Math.floor(i/3) == 0) {
-    // not sure whats going on here
-    document.getElementsByClassName('colNum-' + i).style.borderRight = "2px solid black";
-    console.log(i);
-  }
-}
